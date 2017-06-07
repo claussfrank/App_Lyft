@@ -1,0 +1,23 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.background-color{
+    background: #6702B2;
+    background-position: center center;
+    background: radial-gradient(circle, #E040FB, #AA00FF, #6A1B9A);
+    
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-color > img{
+    height: 10%;
+    width: 20%;
+}
